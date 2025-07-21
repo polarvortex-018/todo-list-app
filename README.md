@@ -1,58 +1,60 @@
-# Todo List App
+# React Project Collection
 
-This is a simple Todo List application built with React and Redux. The app allows users to add, toggle, and remove todo items.
+This repository contains beginner-friendly ReactJS projects built with HTML, CSS, JavaScript, and Redux.
 
-## Features
+---
 
-- Add new todo items
-- Toggle the completion status of todos
-- Remove todo items
-- Persistent state management using Redux
+## 📌 Projects
 
-## Project Structure
+### 1. 📝 To-Do List App
+A simple to-do list application that lets you:
+- Add tasks
+- Mark them as completed
+- Remove tasks  
+✅ Uses **Redux** for state management.
 
-```
-todo-list-app
-├── public
-│   └── index.html          # Main HTML file
-├── src
-│   ├── components
-│   │   └── TodoItem.js     # Component for individual todo item
-│   ├── containers
-│   │   └── TodoList.js      # Container for the todo list
-│   ├── redux
-│   │   ├── actions.js       # Redux action creators
-│   │   ├── reducers.js      # Redux reducers
-│   │   └── store.js         # Redux store configuration
-│   ├── App.js               # Main App component
-│   └── index.js             # Entry point for the React application
-├── package.json             # NPM configuration file
-└── README.md                # Project documentation
-```
+📂 Location: `/`
 
-## Installation
+---
 
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd todo-list-app
-   ```
-3. Install the dependencies:
-   ```
-   npm install
-   ```
+### 2. ❌⭕ Tic Tac Toe Game
+A classic two-player Tic Tac Toe game built with React.
 
-## Usage
+📂 Location: `/tic-tac-toe`
 
-To start the application, run:
-```
+---
+
+### 3. 💰 Expense Tracker App
+An interactive expense tracker to:
+- Add income and expense entries
+- Track your balance
+- Persist data using **localStorage**
+
+📂 Location: `/expense-tracker`
+
+---
+
+## 🛠️ Getting Started
+
+### Clone the Repository:
+```bash
+git clone https://github.com/polarvortex-018/todo-list-app.git
+cd todo-list-app
+
+Install and Run To-Do App:
+npm install
 npm start
-```
-This will launch the app in your default web browser.
 
-## License
+For Tic Tac Toe:
+cd tic-tac-toe
+npm install
+npm start
 
-This project is licensed under the MIT License.
+For Expense Tracker:
+cd expense-tracker
+npm install
+npm start
+
+
+📄 License
+MIT
