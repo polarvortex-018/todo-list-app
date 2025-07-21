@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5dc; /* Beige background */
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  background-color: #fffaf0; /* Light beige container */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #5a4c36;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  background-color: #d2b48c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #bfa06e;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+}
+
+th {
+  text-align: left;
+  padding-bottom: 0.5rem;
+  color: #6b543f;
+  font-size: 1rem;
+}
+
+td {
+  background-color: #fdf6e3;
+  padding: 1rem;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+td:first-child {
+  width: 60%;
+}
+
+td:nth-child(2) {
+  text-align: center;
+  width: 20%;
+}
+
+td:la
+st-child {
+  text-align: center;
+  width: 20%;
+}
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #f5f5dc; /* beige */
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.todo-table th,
+.todo-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ccc;
+  vertical-align: middle;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.todo-table tr:hover td {
+  background-color: #f0ead2;
+  transform: scale(1.01);
+}
+
+.todo-table th {
+  background-color: #e6e0c6;
+  font-weight: bold;
+  text-align: left;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+button {
+  padding: 6px 10px;
+  background-color: #d88;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #c66;
+  transform: scale(1.05);
+}
